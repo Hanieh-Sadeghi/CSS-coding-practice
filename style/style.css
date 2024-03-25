@@ -8,7 +8,11 @@
 }
 
 body {
-    background: seagreen;
+    /* background: seagreen; */
+    background: url(/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .sidebar {
@@ -17,7 +21,7 @@ body {
     left: 0;
     width: 260px;
     height: 100%;
-    background: purple;
+    /* background: purple; */
 }
 
 .sidebar .logo-menu {
